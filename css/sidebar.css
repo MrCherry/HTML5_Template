@@ -1,0 +1,18 @@
+/*----- Sidebars(Columns) styles -----*/
+
+.moduletable {
+	margin: 0 0 2em;
+}
+
+.moduletable input[type=text], .moduletable input[type=password], 
+.moduletable input.text, .moduletable input.inputbox, .moduletable input.title {
+	width: 178px;
+}
+
+.moduletable dl {
+	font-size: 90%;
+}
+
+.moduletable dd {
+	margin: 0 0 .75em 0;
+}

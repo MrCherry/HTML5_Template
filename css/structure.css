@@ -1,0 +1,65 @@
+/*----- structure.css - Main Structure -----*/
+
+/*----- Top Level -----*/
+body {
+	padding-top: 20px;
+	text-align:	center;
+}
+
+div#container {
+	height: 1%;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: left;
+	width: 960px;
+}
+
+
+/*----- Main Structure Blocks -----*/
+header, nav, section#main, footer {
+	clear: right;
+	overflow: hidden;
+	width: 960px;
+}
+
+header {
+	
+}
+
+nav {
+	margin: 0 0 20px;
+	text-align: center;
+}
+
+section#main {
+	margin: 0 0 20px;
+}
+
+footer {
+	
+}
+
+
+/*----- Content Block Сolumns -----*/
+aside#sidebar1,  
+aside#sidebar2,
+section#content {
+	display: inline;
+	float: left;
+	overflow: hidden;
+}
+
+aside#sidebar1 {
+	margin: 0 5px;
+	width: 190px;
+}
+
+aside#sidebar2 {
+	margin: 0 5px;
+	width: 190px;
+}
+
+section#content {
+	margin: 0 5px;
+	width: 550px;
+}

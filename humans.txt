@@ -1,0 +1,13 @@
+/* TEAM */
+	Design-oloper: Feodor Cherashev
+	Site: cherashev.ru
+	Twitter: @MisterCherry
+	Location: Saransk, Russia
+	
+/* SITE */
+	Last update: 2011/03/26
+	Language: Russian
+	Standards: HTML5, CSS3
+	Tools: PHP, MySQL, Joomla
+	Components: Modernizr, jQuery, MooTools
+	IDE: Aptana Studio 3 and Notepad2
