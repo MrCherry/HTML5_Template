@@ -1,33 +1,13 @@
 /*----- Internet Explorer Fixes - ie.css -----*/
 
 /*----- IE 9 -----*/
-.ie9 html {  }
 
 /*----- IE 8 -----*/
 .ie8 .rounded,
 .ie7 .rounded,
 .ie6 .rounded { behavior: url('js/pie/PIE.htc'); position: relative; zoom: 1; z-index: 1; }
 
-.ie8 fieldset, .ie7 fieldset { padding-top: 0; }
-.ie8 legend, .ie7 legend, .ie6 legend { margin: 0px -8px 16px 0; padding: 0; }
-.ie8 fieldset.blank legend, .ie7 fieldset.blank legend, .ie6 fieldset.blank legend { display: none; }
-
 /*----- IE 7 -----*/
-.ie7 html>body p code { *white-space: normal; }
-.ie7 hr, .ie6 hr { margin: -8px auto 11px; }
-.ie7 img { -ms-interpolation-mode: bicubic; }
-.ie7 legend, .ie6 legend { margin-left: -7px; }
-.ie7 button, .ie6 button { padding: 0px 6px; }
 
 /*----- IE 6 -----*/
 .ie6 img, .ie6 .png_bg { behavior: url('js/pie/PIE.htc'); -pie-png-fix: true; }
-.moduletable input.text, .moduletable input.inputbox, .moduletable input.title { width: 178px; }
-input.text:focus, input.inputbox:focus, input.title:focus, textarea:focus {	border-color: #666666; }
-label, button { cursor: pointer; }
-
-input.text, input.inputbox, input.title, textarea {
-	margin: 0.5em 0;
-	background-color: #FFFFFF;
-	border: 1px solid #BBBBBB;
-	font:99% sans-serif;
-}

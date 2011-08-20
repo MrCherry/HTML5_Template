@@ -90,8 +90,8 @@ input.title	{ font-size: 1.5em; }
 
 
 /*----- MISC -----*/
-::-moz-selection{ background: #FF5E99; color: #FFFFFF; text-shadow: none; }
-::selection { background: #FF5E99; color: #FFFFFF; text-shadow: none; }
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
 
 figure {
 	margin: 1.5em 0;
