@@ -1,1 +1,124 @@
+/*----- Styling properties - style.css-----*/
 
+
+/*----- GLOBAL -----*/
+html, body {
+	background: #F5F5F5 url('../images/24_col.gif') repeat-y top center;
+	color: #666666;
+	font: 14px/1.5 "Segoe UI", "Trebuchet MS", Tahoma, Arial, sans-serif; 
+	*font-size:small;
+}
+
+
+/*----- LINKS -----*/
+a {
+	background: transparent;
+	color: #446699;
+	font-size: 100%;
+	text-decoration: underline;
+}
+a:focus { color: #113355; }
+a:hover { text-decoration: none; }
+a:hover, a:active { outline: none; }
+
+
+/*----- HR -----*/
+hr {
+	display: block;
+	height: 1px;
+	margin: 1.5em 0;
+	padding: 0;
+	
+	background:#E2E2E2; 
+	border: 0;
+	border-top:	1px solid #CCCCCC;
+	color:#E1E1E1; 
+}
+
+
+/*----- QUOTES -----*/
+blockquote, q { background: #F5F5F5; font-style: italic; padding: 1.5em; }
+blockquote p:before,q p:before	{ content: '«'; }
+blockquote p:after,q p:after	{ content: '»'; }
+blockquote p, q p{ margin: 0; }
+
+
+/*----- HEADINGS -----*/
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+	margin: 1em 0;
+
+	color: #333333;
+	font-weight: normal;
+}
+
+h5, h6 { font-weight: bold; }
+
+h1 { font-size: 300%; }
+h2 { font-size: 225%; }
+h3 { font-size: 175%; }
+h4 { font-size: 150%; }
+h5 { font-size: 125%; }
+h6 { font-size: 100%; }
+
+
+/*----- TABLES -----*/
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-bottom: 3em; 
+}
+
+th { font-weight: normal; }
+td { vertical-align: top; }
+thead th, thead td { background: #E3E9EE; }
+th, td, caption	{ padding: 4px 10px 4px 5px; }
+caption, tfoot th { background: #F3FAFA; font-style: italic; text-align: center; }
+
+tr.row2 td, tr.row2 th{ background: #F4F4F4; }
+
+
+/*----- FORMS -----*/
+fieldset { padding: 1.5em; margin: 0 0 1.5em 0; border: 1px solid #CCCCCC; }
+fieldset.blank { border: 0; margin: 0; padding: 0; }
+
+textarea { overflow: auto; padding: 5px; width: 495px; }
+
+input.text, input.inputbox, input.title	{ padding:5px; width: 400px; }
+input.title	{ font-size: 1.5em; }
+.moduletable input.inputbox { width: 180px; }
+
+
+/*----- MISC -----*/
+::-moz-selection{ background: #FF5E99; color: #FFFFFF; text-shadow: none; }
+::selection { background: #FF5E99; color: #FFFFFF; text-shadow: none; }
+
+figure {
+	margin: 1.5em 0;
+	text-align: center;
+}
+
+figure blockquote{
+	margin: .75em 0;
+
+	font-style: italic;
+	text-align: left;
+}
+
+figure figcaption{
+	font-style: italic;
+}
+
+figure img{
+	border: 1px solid #CCCCCC;
+	padding: 4px;
+
+	background: #FFFFFF;
+}
+
+figure pre, figure pre {
+	text-align: left;
+} 
+
+figure.left { float: left; margin: .5em 1.5em 1.5em 0; }
+figure.right { float: right; margin: .5em 0 1.5em 1.5em; }
