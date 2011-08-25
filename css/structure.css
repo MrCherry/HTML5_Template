@@ -15,7 +15,7 @@ div#container {
 
 
 /*----- Main Structure Blocks -----*/
-header, nav, section#main, footer {
+header, nav, div#main, footer {
 	clear: right;
 	overflow: hidden;
 	width: 960px;
@@ -30,7 +30,7 @@ nav {
 	text-align: center;
 }
 
-section#main {
+div#main {
 	margin: 0 0 20px;
 }
 

@@ -11,7 +11,7 @@ html, body {
 
 
 /*----- LINKS -----*/
-a {
+a, a:link {
 	background: transparent;
 	color: #446699;
 	font-size: 100%;
@@ -46,7 +46,7 @@ blockquote p, q p{ margin: 0; }
 /*----- HEADINGS -----*/
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1;
-	margin: 1em 0;
+	margin: 0.5em 0;
 
 	color: #333333;
 	font-weight: normal;
@@ -81,6 +81,8 @@ tr.row2 td, tr.row2 th{ background: #F4F4F4; }
 /*----- FORMS -----*/
 fieldset { padding: 1.5em; margin: 0 0 1.5em 0; border: 1px solid #CCCCCC; }
 fieldset.blank { border: 0; margin: 0; padding: 0; }
+
+fieldset legend { font-size: 150%; padding: 0 5px; }
 
 textarea { overflow: auto; padding: 5px; width: 495px; }
 

@@ -10,4 +10,4 @@
 /*----- IE 7 -----*/
 
 /*----- IE 6 -----*/
-.ie6 img, .ie6 .png_bg { behavior: url('js/pie/PIE.htc'); -pie-png-fix: true; }
+.ie6 img, .ie6 .png_bg { behavior: url('js/pie/PIE.htc'); -pie-png-fix: true; position: relative; }
