@@ -4,25 +4,25 @@ nav {
 	
 }
 
-nav ul.menu {
-	clear: both;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-nav ul.menu li {
-	display: inline;
-	line-height: 3;
-	margin: 0 1em 0 0;
-}
-
-nav ul.menu li a {
-	font-size: 150%;
-	text-decoration: none;
-}
-
-nav ul.menu li a:hover {
-	color: #68A;
-	text-decoration: none;
-}
+	nav ul.menu {
+		clear: both;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+		nav ul.menu li {
+			display: inline;
+			line-height: 3;
+			margin: 0 1em 0 0;
+		}
+		
+			nav ul.menu li a {
+				font-size: 150%;
+				text-decoration: none;
+			}
+			
+			nav ul.menu li a:hover {
+				color: #68A;
+				text-decoration: none;
+			}

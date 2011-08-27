@@ -4,11 +4,14 @@
 	margin: 0 0 2em;
 }
 
-.moduletable input[type=text], .moduletable input[type=password], 
-.moduletable input.text, .moduletable input.inputbox, .moduletable input.title {
-	width: 176px;
-}
-
-.moduletable dl dd {
-	margin: 0 0 1.5em 0;
-}
+	.moduletable input[type=text],
+	.moduletable input[type=password], 
+	.moduletable input.text,
+	.moduletable input.inputbox,
+	.moduletable input.title {
+		width: 176px;
+	}
+	
+	.moduletable dl dd {
+		margin: 0 0 1.5em 0;
+	}
