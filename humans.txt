@@ -1,11 +1,11 @@
 /* TEAM */
-	Design-oloper: Feodor Cherashev
+	IT-pro: Feodor Cherashev
 	Site: cherashev.ru
 	Twitter: @MisterCherry
 	Location: Saransk, Russia
 	
 /* SITE */
-	Last update: 2011/03/26
+	Last update: 2012/03/28
 	Language: Russian
 	Standards: HTML5, CSS3
 	Tools: PHP, MySQL, Joomla

@@ -12,12 +12,15 @@
 
 # OS or Editor folders
 .DS_Store
+Thumbs.db
 .cache
 .project
 .settings
 .tmproj
+*.esproj
 nbproject
-Thumbs.db
+*.sublime-project
+*.sublime-workspace
 
 # Dreamweaver added files
 _notes
@@ -26,6 +29,10 @@ dwsync.xml
 # Komodo
 *.komodoproject
 .komodotools
+
+# Aptana
+.project
+.settings
 
 # Folders to ignore
 .hg
@@ -38,6 +45,3 @@ publish
 # build script local files
 build/buildinfo.properties
 build/config/buildinfo.properties
-
-# tests
-test
