@@ -1,17 +1,14 @@
-/*----- Content styles - content.css -----*/
+/*----- Content block styles - content.css -----*/
 
-div#main .breadcrumbs {
+#main .breadcrumbs {
 	display: block;
-	margin: 0 0 1.5em 0;
-	
 	font-size: 90%;
+	margin: 0 0 1.5em 0;
 }
-
-	div#main .breadcrumbs span {
+	#main .breadcrumbs span {
 		margin-right: .25em;
 	}
-	
-	div#main .breadcrumbs a,
-	div#main .breadcrumbs img {
+	#main .breadcrumbs a,
+	#main .breadcrumbs img {
 		margin: 0 .15em;
 	}

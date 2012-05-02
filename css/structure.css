@@ -1,21 +1,24 @@
 /*----- Main Structure - structure.css -----*/
 
 /*----- Top Level -----*/
-body {
+html, body {
 	text-align:	center;
 }
 
-div#container {
-	height: 1%;
+#wrapper {
 	margin: 0 auto;
 	overflow: hidden;
 	text-align: left;
 	width: 960px;
+	height: 1%;
 }
 
 
 /*----- Main Structure Blocks -----*/
-header, nav, div#main, footer {
+header,
+nav,
+#main,
+footer {
 	clear: right;
 	overflow: hidden;
 	width: 960px;
@@ -30,7 +33,7 @@ nav {
 	text-align: center;
 }
 
-div#main {
+#main {
 	margin: 0 0 20px;
 }
 
@@ -40,25 +43,26 @@ footer {
 
 
 /*----- Content Block Сolumns -----*/
-aside#sidebar1,  
-aside#sidebar2,
-section#content {
+#content,
+#sidebar1,  
+#sidebar2 {
 	display: inline;
 	float: left;
 	overflow: hidden;
 }
 
-aside#sidebar1 {
-	margin: 0 5px;
-	width: 190px;
-}
-
-aside#sidebar2 {
-	margin: 0 5px;
-	width: 190px;
-}
-
-section#content {
+#content {
 	margin: 0 5px;
 	width: 550px;
 }
+
+#sidebar1 {
+	margin: 0 5px;
+	width: 190px;
+}
+
+#sidebar2 {
+	margin: 0 5px;
+	width: 190px;
+}
+

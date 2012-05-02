@@ -1,21 +1,24 @@
 /*----- other.css - Various styles -----*/
 
-/* Error, Notice, Success messages*/
+/* Error, Notice, Success messages */
 .error,
 .notice,
-.success	{padding: .8em; margin-bottom: 1em; border: 2px solid #ddd;}
+.success {
+	border: 2px solid #DDDDDD;
+	margin-bottom: 1em;
+	padding: .8em;
+}
 
-.error		{background: #FBE3E4; border-color: #FBC2C4; color: #8a1f11;}
-.notice		{background: #FFF6BF; border-color: #FFD324; color: #514721;}
-.success	{background: #E6EFC2; border-color: #C6D880; color: #264409;}
-.error a	{color: #8a1f11;}
-.notice a	{color: #514721;}
-.success a	{color: #264409;}
+.error		{ background: #FBE3E4; border-color: #FBC2C4; color: #8a1f11; }
+.notice		{ background: #FFF6BF; border-color: #FFD324; color: #514721; }
+.success	{ background: #E6EFC2; border-color: #C6D880; color: #264409; }
+.error a	{ color: #8a1f11; }
+.notice a	{ color: #514721; }
+.success a	{ color: #264409; }
 
 
 /* For image replacement */
-.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
-.ir br { display: none; }
+.ir { border:0; font: 0/0 a; text-shadow: none; color: transparent; background-color: transparent; }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
 .hidden { display: none !important; visibility: hidden; }
@@ -31,9 +34,9 @@
 
 
 /* Clearfix */
-.clearfix:before, .clearfix:after { content: ""; display: table; }
-.clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
+.clear:before, .clear:after { content: ""; display: table; }
+.clear:after { clear: both; }
+.clear { zoom: 1; }
 
 
 /* Media Queries for Responsive Design */

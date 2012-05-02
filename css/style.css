@@ -11,45 +11,58 @@ html, body {
 
 
 /*----- LINKS -----*/
-a, a:link {
+a,
+a:link {
 	background: transparent;
 	color: #446699;
 	font-size: 100%;
 	text-decoration: underline;
 }
+
 a:focus { color: #113355; }
 a:hover { text-decoration: none; }
-a:hover, a:active { outline: none; }
+
+a:hover,
+a:active { outline: none; }
 
 
 /*----- HR -----*/
 hr {
+	background: #E2E2E2;
+	border: 0;
+	border-top: 1px solid #CCCCCC;
+	color: #E1E1E1;
 	display: block;
 	height: 1px;
 	margin: 1.5em 0;
 	padding: 0;
-	
-	background:#E2E2E2; 
-	border: 0;
-	border-top:	1px solid #CCCCCC;
-	color:#E1E1E1; 
 }
 
 
 /*----- QUOTES -----*/
-blockquote, q { background: #F5F5F5; font-style: italic; padding: 1.5em; }
-blockquote p:before,q p:before	{ content: '«'; }
-blockquote p:after,q p:after	{ content: '»'; }
-blockquote p, q p{ margin: 0; }
+q,
+blockquote {
+	background: #F5F5F5;
+	font-style: italic;
+	padding: 1.5em;
+}
+
+q p:before,
+blockquote p:before { content: '«'; }
+
+q p:after,
+blockquote p:after { content: '»'; }
+
+q p,
+blockquote p { margin: 0; }
 
 
 /*----- HEADINGS -----*/
 h1, h2, h3, h4, h5, h6 {
-	line-height: 1;
-	margin: 0.5em 0;
-
 	color: #333333;
 	font-weight: normal;
+	line-height: 1;
+	margin: 0.5em 0;
 }
 
 h5, h6 { font-weight: bold; }
@@ -71,56 +84,100 @@ table {
 
 th { font-weight: normal; }
 td { vertical-align: top; }
-thead th, thead td { background: #E3E9EE; }
-th, td, caption	{ padding: 4px 10px 4px 5px; }
-caption, tfoot th { background: #F3FAFA; font-style: italic; text-align: center; }
 
-tr.row2 td, tr.row2 th{ background: #F4F4F4; }
+thead th,
+thead td { background: #E3E9EE; }
+
+th, td, caption { padding: 4px 10px 4px 5px; }
+
+caption,
+tfoot th {
+	background: #F3FAFA;
+	font-style: italic;
+	text-align: center;
+}
+
+tr.row2 td,
+tr.row2 th { background: #F4F4F4; }
 
 
 /*----- FORMS -----*/
-fieldset { padding: 1.5em; margin: 0 0 1.5em 0; border: 1px solid #CCCCCC; }
-fieldset.blank { border: 0; margin: 0; padding: 0; }
+fieldset {
+	border: 1px solid #CCCCCC;
+	margin: 0 0 1.5em 0;
+	padding: 1.5em;
+}
 
-fieldset legend { font-size: 150%; padding: 0 5px; }
+fieldset.blank {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
 
-textarea { overflow: auto; padding: 5px; width: 495px; }
+fieldset legend {
+	font-size: 150%;
+	padding: 0 5px;
+}
 
-input.text, input.inputbox, input.title	{ padding:5px; width: 400px; }
+textarea {
+	overflow: auto;
+	padding: 5px;
+	width: 495px;
+}
+
+input.text,
+input.title,
+input.inputbox {
+	padding:5px;
+	width: 400px;
+}
+
 input.title	{ font-size: 1.5em; }
 .moduletable input.inputbox { width: 180px; }
 
 
 /*----- MISC -----*/
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection {
+	background: #fe57a1;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #fe57a1;
+	color: #fff;
+	text-shadow: none;
+}
 
 figure {
 	margin: 1.5em 0;
 	text-align: center;
 }
 
-figure blockquote{
-	margin: .75em 0;
-
+figure blockquote {
 	font-style: italic;
+	margin: .75em 0;
 	text-align: left;
 }
 
-figure figcaption{
+figure figcaption {
 	font-style: italic;
 }
 
-figure img{
+figure img {
+	background: #FFFFFF;
 	border: 1px solid #CCCCCC;
 	padding: 4px;
-
-	background: #FFFFFF;
 }
 
-figure pre, figure pre {
+figure pre {
 	text-align: left;
 } 
 
-figure.left { float: left; margin: .5em 1.5em 1.5em 0; }
-figure.right { float: right; margin: .5em 0 1.5em 1.5em; }
+figure.left {
+	float: left;
+	margin: 0.5em 1.5em 1.5em 0;
+}
+figure.right {
+	float: right;
+	margin: 0.5em 0 1.5em 1.5em;
+}

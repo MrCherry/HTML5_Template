@@ -18,6 +18,7 @@
 	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 	
 	
+	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/normalize.css" />
 
 	<link rel="stylesheet" href="css/structure.css" />
@@ -33,7 +34,8 @@
 	
 	<link rel="stylesheet" href="css/ie.css" />
 	
-	<link rel="stylesheet" href="css/debug.css" />
+	<link rel="stylesheet" href="css/dev.css" />
+	
 	<link rel="stylesheet" href="css/print.css" />
 	
 
@@ -42,7 +44,7 @@
 
 <body>
 	
-	<div id="container">
+	<div id="wrapper">
 		<header>
 			<div>
 				<p>&nbsp; header</p>
@@ -63,12 +65,12 @@
 				</div>
 			</aside> <!-- aside#sidebar1 -->
 			
-			<section id="content" role="main">		
+			<div id="content" role="main">		
 				<article>
 					<h2>&nbsp; Article</h2>
 					<p>&nbsp; content</p>
 				</article> <!-- article -->
-			</section> <!-- section#content -->
+			</div> <!-- div#content -->
 			
 			<aside id="sidebar2">
 				<div class="moduletable">
@@ -83,7 +85,7 @@
 				<p>&nbsp; footer</p>
 			</div>
 		</footer> <!-- footer -->
-	</div> <!-- div#container -->
+	</div> <!-- div#wrapper -->
 
 
 	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>

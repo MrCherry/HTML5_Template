@@ -6,20 +6,20 @@
 
 body { font-family: "Segoe UI", Tahoma, Arial, sans-serif;	font-size: 100%; line-height: 1.5; }
 
-.container { background: none; }
+#wrapper { background: none; }
 
 @page { margin: 0.5cm; }
 
 hr {
 	border: none;
-	height: 2px;
 	margin: 2em 0;
 	padding: 0;
 	width: 100%;
+	height: 2px;
 }
 
-h1,h2,h3,h4,h5,h6 {font-family: "Segoe UI", Tahoma, Arial, sans-serif;}
-code {font:.9em "Courier New", monospace;}
+h1, h2, h3, h4, h5, h6 { font-family: "Segoe UI", Tahoma, Arial, sans-serif; }
+code { font:.9em "Courier New", monospace; }
 
 p, h2, h3 { orphans: 3; widows: 3; }
 h2, h3 { page-break-after: avoid; }
@@ -28,7 +28,8 @@ img { max-width: 100% !important; }
 a img {border:none;}
 p img.top {margin-top: 0;}
 
-pre, blockquote {
+pre,
+blockquote {
 	border: 1px solid #999;
 	font-size:.9em;
 	font-style:italic;
@@ -37,19 +38,33 @@ pre, blockquote {
 	page-break-inside: avoid;
 }
 
-big,  .large { font-size: 125%; }
-small,.small { font-size: 75%; }
+big,
+.large { font-size: 125%; }
+
+small,
+.small { font-size: 75%; }
+
 .quiet	{ color: #999; }
 .hide	{ display:none; }
 
-a, a:link, a:visited {	background: transparent;font-weight:700; text-decoration: underline; }
+a,
+a:link,
+a:visited {	background: transparent; font-weight:700; text-decoration: underline; }
 
 a[href]:after { content: " (" attr(href) ")"; }
 abbr[title]:after { content: " (" attr(title) ")"; }
-.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+
+.ir a:after,
+a[href^="#"]:after,
+a[href^="javascript:"]:after { content: ""; }
 
 thead { display: table-header-group; }
 
-tr, img { page-break-inside: avoid; }
+tr,
+img { page-break-inside: avoid; }
 
-header, nav, footer, aside {display:none !important;}
+header,
+nav,
+footer,
+aside {display:none !important;}
+
