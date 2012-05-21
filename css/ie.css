@@ -1,14 +1,16 @@
 /*----- Internet Explorer Fixes - ie.css -----*/
 
 /*----- IE 9 -----*/
+.gt-ie8 {}
 
 /*----- IE 8 -----*/
-.ie8 .rounded,
-.ie7 .rounded,
-.ie6 .rounded { behavior: url('js/pie/PIE.htc'); position: relative; zoom: 1; z-index: 1; }
+.lt-ie9 .rounded,
+.lt-ie8 .rounded,
+.lt-ie7 .rounded { behavior: url('js/pie/PIE.htc'); position: relative; zoom: 1; z-index: 1; }
 
 /*----- IE 7 -----*/
+.lt-ie8 {}
 
 /*----- IE 6 -----*/
-.ie6 img,
-.ie6 .png_bg { behavior: url('js/pie/PIE.htc'); -pie-png-fix: true; position: relative; }
+.lt-ie7 img,
+.lt-ie7 .png_bg { behavior: url('js/pie/PIE.htc'); -pie-png-fix: true; position: relative; }
