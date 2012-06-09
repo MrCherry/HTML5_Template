@@ -5,7 +5,7 @@ html, body {
 	text-align:	center;
 }
 
-#wrapper {
+.wrapper {
 	margin: 0 auto;
 	overflow: hidden;
 	text-align: left;
