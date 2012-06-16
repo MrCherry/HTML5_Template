@@ -1,9 +1,14 @@
-/*----- Styling properties - style.css-----*/
+/*----- Styling properties - style.css-----
+ * 
+ * TODO:
+ * ul - blank outside articles
+ * 
+ */
 
 
 /*----- GLOBAL -----*/
 html, body {
-	background: #F5F5F5 url('../images/24_col.gif') repeat-y top center;
+	background: #F5F5F5 url('../img/24_col.gif') repeat-y top center;
 	color: #666666;
 	font: 14px/1.5 "Segoe UI", "Trebuchet MS", Tahoma, Arial, sans-serif; 
 	*font-size:small;

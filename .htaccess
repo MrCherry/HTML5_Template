@@ -54,7 +54,7 @@
 # Send CORS headers if browsers request them; enabled by default for images.
 # developer.mozilla.org/en/CORS_Enabled_Image
 # blog.chromium.org/2011/07/using-cross-domain-images-in-webgl-and.html
-# hacks.mozilla.org/2011/11/using-cors-to-load-webgl-textures-from-cross-domain-images/
+# hacks.mozilla.org/2011/11/using-cors-to-load-webgl-textures-from-cross-domain-img/
 # wiki.mozilla.org/Security/Reviews/crossoriginAttribute
 
 <IfModule mod_setenvif.c>

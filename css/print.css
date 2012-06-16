@@ -6,7 +6,7 @@
 
 body { font-family: "Segoe UI", Tahoma, Arial, sans-serif;	font-size: 100%; line-height: 1.5; }
 
-#wrapper { background: none; }
+.wrapper { background: none; }
 
 @page { margin: 0.5cm; }
 
