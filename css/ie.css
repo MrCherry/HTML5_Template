@@ -1,9 +1,10 @@
 /*----- Internet Explorer Fixes - ie.css -----*/
 
 /*----- IE 8 -----*/
+.lt-ie9 .rgba,
+.lt-ie9 .shadow,
 .lt-ie9 .rounded,
-.lt-ie8 .rounded,
-.lt-ie7 .rounded { behavior: url('js/pie/PIE.htc'); position: relative; zoom: 1; z-index: 1; }
+.lt-ie9 .gradient { behavior: url('js/pie/PIE.htc'); position: relative; zoom: 1; z-index: 1; }
 
 /*----- IE 7 -----*/
 .lt-ie8 {}
